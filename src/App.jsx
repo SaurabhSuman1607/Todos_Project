@@ -12,7 +12,10 @@ function App() {
   return (
     <div className={styles.App}>
       <div className={styles.Header}>
-        <img className={styles.Logo} src="to-do.png" />
+        <img
+          className={styles.Logo}
+          src={import.meta.env.BASE_URL + "to-do.png"}
+        />
         <h2 className={styles.Title}>To_Do App</h2>
       </div>
 
